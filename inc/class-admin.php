@@ -27,6 +27,13 @@ class Admin extends Base {
 	protected static $connect_callback_uri = 'oauth2callback/gab';
 
 	/**
+	 * Local URI used for the disconnection callback.
+	 *
+	 * @var string
+	 */
+	protected static $disconnect_callback_option = '';
+	
+	/**
 	 * URL used for the initial authorization request.
 	 *
 	 * @var string
