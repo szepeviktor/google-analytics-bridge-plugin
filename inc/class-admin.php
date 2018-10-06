@@ -32,7 +32,7 @@ class Admin extends Base {
 	 * @var string
 	 */
 	protected static $disconnect_callback_option = '';
-	
+
 	/**
 	 * URL used for the initial authorization request.
 	 *
